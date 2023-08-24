@@ -16,8 +16,7 @@ const Home = () => {
 
   return (
     <ul>
-      {movies.length &&
-        movies.map(movie => <GalleryItem key={movie.id} item={movie} />)}
+        movies.map(movie => <GalleryItem key={movie.id} item={movie} />)
     </ul>
   );
 };
